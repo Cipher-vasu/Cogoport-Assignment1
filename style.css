@@ -102,6 +102,16 @@ body{
   font-weight: 600;
 }
 
+.details-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.details-inside-block h3{
+  color: red;
+}
+
 .trusted-section{
   margin-top: 25px;
   margin-bottom: 25px;
@@ -172,7 +182,24 @@ body{
 .bottom-block-2{
   /*border: solid;
   border-color: #fbdc00;*/
-  background-color: #fbdc00
+  background-color: #fbdc00;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 200px;
+}
+
+.bottom-inside-block-2 h3{
+  text-decoration: underline;
+}
+
+.bottom-inside-block-2 p:hover{
+  text-decoration: underline;
+}
+
+.supply{
+  padding-top: 37px;
 }
 
 .bottommost-section{
