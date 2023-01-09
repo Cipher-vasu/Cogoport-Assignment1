@@ -71,6 +71,37 @@ body{
   border-radius: 5px;
 }
 
+.introduction-block{
+  background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+  /*background-image: url(F:\Cogoport-Assignment1\images\home-banner-background-1.webp);*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fede00;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -60px;
+  padding-top:60px;
+}
+
+.inside-introduction-block{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-right: 50px;
+}
+
+.get-started-button{
+  background-color: #ee3425;
+  border: none;
+  width: 150px;
+  height:35px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
 .trusted-section{
   margin-top: 25px;
   margin-bottom: 25px;
