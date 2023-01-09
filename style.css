@@ -175,9 +175,46 @@ body{
   height: 100px;
 }
 
-.bottom-block-3{
+
+/* Subscription section css styling begin*/
+
+.Subscription-section{
+  padding-top: 40px;
   background-color: #fbdc00;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
+.Subscription-image{
+  padding-right: 50px;
+}
+
+.Subscription-input{
+  display: flex;
+  flex-direction: row;
+}
+
+.email-input{
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width:250px;
+  height:40px;
+}
+
+.Subscription-button{
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #ee3425;
+  height:40px;
+  width:100px;
+}
+
+/* Subscription section css styling end */
+
+/* Products section css styling  begin */
 
 .bottom-block-2{
   /*border: solid;
@@ -186,6 +223,8 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 200px;
 }
@@ -202,7 +241,10 @@ body{
   padding-top: 37px;
 }
 
-.bottommost-section{
+/* Products section css styling end */
+
+
+.Routes{
   background-color: #ebbe00;
   display: flex;
   flex-direction: row;
@@ -210,14 +252,14 @@ body{
   flex-wrap: wrap;
 }
 
-.bottommost-section div{
+.Routes div{
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.bottommost-section p:hover{
+.Routes p:hover{
   color: red;
   /*font-weight:bolder;*/
 }
