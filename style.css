@@ -108,7 +108,7 @@ body{
 .get-started-button{
   margin-top: 10px;
   font-size: 14px;
-  font-weight: 700;
+  font-family: 'PT Sans', sans-serif;;
   background-color: #ee3425;
   border: none;
   width: 150px;
@@ -416,6 +416,8 @@ body{
 }
 
 .industry-heading{
+  font-size: 28px;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
 
@@ -458,7 +460,7 @@ body{
 .inside-Get-Started-block{
   align-content: center;
   padding-right: 100px;
-  
+
   padding-left: 80px;
 
 }
@@ -477,13 +479,27 @@ body{
   padding: 10px 5px;
 }
 
+
 .gs{
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Get Started Section css styling ends */
 
 /* Video section css styling begins */
+
+.video-container{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,.4);
+}
 
 .know-more-section{
   background-color: #ee3425;
@@ -520,6 +536,7 @@ body{
 .blogs{
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .blogsblock{
@@ -569,12 +586,22 @@ body{
   padding-right: 10px;
 }
 
+.viewbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .vabutton{
   width:100px;
   height:40px;
   background-color: #ee3425;
   color: white;
+  font-size: 14px;
+  font-weight: 700;
   font-family: 'PT Sans', sans-serif;
+  border-radius: 5px;
+  border: none;
 }
 
 
@@ -637,7 +664,20 @@ body{
 }
 
 .bottom-inside-block-2 h3{
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
   text-decoration: underline;
+  font-weight: 700;
+}
+
+.bottom-inside-block-2 h4{
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.bottom-inside-block-2 p{
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .bottom-inside-block-2 p:hover{
@@ -666,7 +706,12 @@ body{
   padding-bottom: 10px;
 }
 
+.routes-column p{
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+
 .Routes p:hover{
   color: red;
-  /*font-weight:bolder;*/
+  font-weight:700;
 }
