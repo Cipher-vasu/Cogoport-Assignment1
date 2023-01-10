@@ -80,6 +80,8 @@ body{
 
 /* Navbar section ends */
 
+/* introduction section css styling begins */
+
 .introduction-block{
   background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
   /*background-image: url(F:\Cogoport-Assignment1\images\home-banner-background-1.webp);*/
@@ -116,23 +118,67 @@ body{
   font-weight: 600;
 }
 
+/* introduction section css styling ends */
+
+/* Facts section css styling begins */
+
 .details-block{
+  padding: 50px 100px;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
-.details-inside-block h3{
+.details-inside-block{
+  text-align: center;
+}
+
+.details-inside-block h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
   color: red;
 }
+
+.details-inside-block h4{
+  margin-top: -20px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Facts section css styling ends */
+
+/* Block3 */
 
 .Block3{
   background-color: #fffef3;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 30px 100px;
+  align-items: center;
+  padding: 50px 100px;
 }
+
+.Block3-1{
+  align-content: center;
+  padding-left: 80px;
+}
+
+.Block3-1 h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 10px;
+}
+
+.Block3-1 p{
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.Block3-2{
+  padding-left: 80px;
+}
+
+/* Block3 */
+
+/* Our Products section css styling begins */
 
 .Block4{
   background-color: #fffef3;
@@ -143,32 +189,83 @@ body{
 .Block4-table{
   display: flex;
   flex-direction: column;
+  padding: 20px 100px;
 }
 
 .Block4-productcategory{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Block4-productcategory h4{
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .Block4-productrow{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
 }
 
+.row1{
+  margin-left: 120px;
+}
+
+.row2{
+  margin-left: 185px;
+}
+
+.row3{
+  margin-left: 140px;
+}
+
+.row4{
+  margin-left: 200px;
+}
 
 .productbox{
   display: flex;
   flex-direction: column;
   background-color: white;
+  justify-content: space-around;
   align-items: center;
-  border: solid;
-  border-color: black;
+  /*border: solid;
+  border-color: black;*/
   border-radius: 10px;
   width: 184px;
   height:160px;
-  margin:8px;
+  margin:16px;
   padding: 0;
+  box-shadow: 1px 1px 6px grey;
 }
+
+.productbox:hover{
+  border:1px solid #ee3425;
+}
+
+.productbox h4{
+  margin:0;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.productbox h6{
+  color: #ee3425;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+}
+
+/*Our Products section css styling ends */
+
+/* Trust Section css styling begins */
 
 .trusted-section{
   margin-top: 25px;
@@ -189,26 +286,104 @@ body{
   height:50px;
 }
 
+/*Trust section css styling ends */
+
 .work-section{
   background-color: #fbdc00;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 15px 155px;
 }
 
-.work-section h2{
-  font-family: "Ubuntu",sans-serif;
-  font-weight: bolder;
-  font-size: 30px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 125px;
+.work-section h3{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .work-section button{
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-right: 125px;
+  border: none;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  width:120px;
+  height:35px;
+  color: white;
+  background-color: #ee3425;
+  border-radius: 5px;
+}
+
+.how-block{
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.how-button-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.how-button{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  width:200px;
+  height: 40px;
+  margin: 10px 10px;
+}
+
+.how-diagram-section{
+  display: flex;
+  flex-direction: row;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.sidecolumns{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.midcolumn{
+  padding:100px 50px;
+}
+
+.stage-box{
+  width:280px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px grey;
+}
+
+.stage-box p{
+  color: #ee3425;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon-heading{
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.list-section{
+  font-family: 'PT Sans', sans-serif;
+  margin-left: -20px;
 }
 
 /* Industry Section css styling begins */
@@ -248,26 +423,44 @@ body{
 /* Get Started Section css styling begins */
 
 .Get-Started-block{
-  margin-top: 35px;
-  margin-bottom: 35px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 50px 100px;
 }
 
 .trade-image{
+  padding-left:80px;
+}
+
+.trade-image img{
   width:280px;
-  height:360px;
-  padding-right:250px;
+  height:300px;
 }
 
 .inside-Get-Started-block{
-  display: flex;
-  flex-direction: column;
+  align-content: center;
+  padding-left: 80px;
 
+}
+
+.inside-Get-Started-block h2{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.inside-Get-Started-block p{
+  margin: 0;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  padding: 10px 5px;
+}
+
+.gs{
+  font-weight: 500;
 }
 
 /* Get Started Section css styling ends */
@@ -304,6 +497,71 @@ body{
 
 /* Video section css styling ends */
 
+/* Blogs section css styling begins */
+
+.blogs{
+  display: flex;
+  flex-direction: column;
+}
+
+.blogsblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:20px;
+}
+
+.blogbox{
+  width:380px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px grey;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.content-section{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content-section h4{
+  margin:0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content-section p{
+  font-family:'PT Sans', sans-serif;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.vabutton{
+  width:100px;
+  height:40px;
+  background-color: #ee3425;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Blogs section css styling ends */
+
 /* Subscription section css styling begin*/
 
 .Subscription-section{
@@ -312,6 +570,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 35px;
 }
 
 .Subscription-image{
@@ -331,6 +590,8 @@ body{
 }
 
 .Subscription-button{
+  font-family: 'PT Sans', sans-serif;;
+  font-size: 14px;
   font-weight: bold;
   color: white;
   border: none;
