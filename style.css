@@ -233,8 +233,7 @@ body{
   background-color: white;
   justify-content: space-around;
   align-items: center;
-  /*border: solid;
-  border-color: black;*/
+  border: 1px solid white;
   border-radius: 10px;
   width: 184px;
   height:160px;
@@ -353,7 +352,23 @@ body{
 }
 
 .midcolumn{
-  padding:100px 50px;
+  display: flex;
+  flex-direction: column;
+  padding:100px 0;
+}
+
+.la1{
+  margin-left:0px;
+  margin-bottom: -15px;
+}
+
+.la2{
+  padding-left: 300px;
+  margin-bottom:-15px;
+}
+
+.la4{
+  padding-left: 300px;
 }
 
 .stage-box{
@@ -384,6 +399,7 @@ body{
 .list-section{
   font-family: 'PT Sans', sans-serif;
   margin-left: -20px;
+
 }
 
 /* Industry Section css styling begins */
@@ -424,10 +440,10 @@ body{
 
 .Get-Started-block{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 50px 100px;
+  padding: 100px 100px;
 }
 
 .trade-image{
@@ -441,6 +457,8 @@ body{
 
 .inside-Get-Started-block{
   align-content: center;
+  padding-right: 100px;
+  
   padding-left: 80px;
 
 }
