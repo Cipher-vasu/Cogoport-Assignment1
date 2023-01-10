@@ -3,9 +3,10 @@ body{
 }
 
 /*.top-section {
-
-}*/
-
+  display: block;
+  box-sizing: border-box;
+}
+*/
 .navbar-area{
   /*position: fixed;
   width:100%;*/
@@ -31,15 +32,16 @@ body{
   padding-left:10px;
 }
 
-.main-menu li{
-  font-family:"Ubuntu", sans-serif;
-  font-weight: 600;
+.menu-item{
+  font-family: 'Ubuntu','PT Sans', sans-serif;
+  font-weight: 500;
   font-size:14px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.main-menu li:hover{
+
+.menu-item:hover{
   color:red;
 }
 
@@ -50,14 +52,19 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   /*padding-right: 150px;*/
 }
 
 .login-signup li{
+  font-family: 'Ubuntu','PT Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
 
 .signup-button{
   background-color: #ee3425;
@@ -70,6 +77,8 @@ body{
   height:35px;
   border-radius: 5px;
 }
+
+/* Navbar section ends */
 
 .introduction-block{
   background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
