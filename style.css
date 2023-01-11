@@ -2,6 +2,11 @@ body{
   margin:0;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 /*.top-section {
   display: block;
   box-sizing: border-box;
@@ -677,6 +682,7 @@ body{
 }
 
 .bottom-inside-block-2 p{
+  color: #2c3e50;
   font-size: 14px;
   font-family: 'Ubuntu', sans-serif;
 }
